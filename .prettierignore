@@ -1,0 +1,14 @@
+# Next.js
+.next
+next-env.d.ts
+
+# IntelliJ project files
+.idea
+out
+gen
+
+# VS code
+.vscode
+
+# npm
+package-lock.json
