@@ -37,6 +37,6 @@
 	},
 	"lint-staged": {
 		"**/*": "npm run prettier:fix",
-		"**/*.{js,jsx,ts,tsx}": "npm run eslint:fix"
+		"**/*.{ts,tsx}": "npm run eslint:fix"
 	}
 }

@@ -1,9 +1,9 @@
-const required = (envVariable: string | undefined) : string => {
-    if(!envVariable) {
-        throw new Error("Found undefined env variable.")
-    }
+const required = (envVariable: string | undefined): string => {
+	if (!envVariable) {
+		throw new Error("Found undefined env variable.")
+	}
 
-    return envVariable
+	return envVariable
 }
 
 // RIOT GAMES API KEYS
