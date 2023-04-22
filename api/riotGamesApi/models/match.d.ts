@@ -1,3 +1,8 @@
+export interface Match {
+	metadata: Metadata
+	info: Info
+}
+
 export interface Metadata {
 	dataVersion: string
 	matchId: string
